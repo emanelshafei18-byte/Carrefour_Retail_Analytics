@@ -254,9 +254,10 @@ carrefour-retail-analytics-dashboard/
 
 ## Author
 
-**Omnia**
+**Eman Elshafei**
 Data Analyst | Accounting graduate specialising in Data Analysis
 Power BI · Power Query (M) · DAX · SQL · Python · Excel · Tableau · Looker Studio
+[LinkedIn](https://www.linkedin.com/in/eman-elshafei)
 
 ---
 
