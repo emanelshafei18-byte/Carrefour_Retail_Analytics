@@ -113,6 +113,7 @@ The weighted discount calculation was rebuilt using `DIVIDE(SUM(...), SUM(...))`
 
 ### 1 · Home / Navigation
 A branded landing page introducing the report, the data period and the purpose of each page, with buttons routing users to any section.
+<img src="assets/01-home.png" alt="Home / Navigation" width="850">
 
 ### 2 · Executive Overview
 <img src="assets/02-executive-overview.png" alt="Executive Overview" width="850">
@@ -241,7 +242,7 @@ carrefour-retail-analytics-dashboard/
 1. Install **Power BI Desktop** (latest version recommended).
 2. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/carrefour-retail-analytics-dashboard.git
+   clone https://github.com/emanelshafei18-byte/carrefour-retail-analytics-dashboard.git
    ```
 3. Open `report/Carrefour_Retail_Analytics.pbix`.
 4. If the source path prompts, update it via **Transform data → Data source settings** to point at `data/carrefour_sales.csv` (or your SQL Server instance).
