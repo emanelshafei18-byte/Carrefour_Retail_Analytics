@@ -242,7 +242,7 @@ carrefour-retail-analytics-dashboard/
 1. Install **Power BI Desktop** (latest version recommended).
 2. Clone the repository:
    ```bash
-   clone https://github.com/emanelshafei18-byte/carrefour-retail-analytics-dashboard.git
+   git clone https://github.com/emanelshafei18-byte/carrefour-retail-analytics-dashboard.git
    ```
 3. Open `report/Carrefour_Retail_Analytics.pbix`.
 4. If the source path prompts, update it via **Transform data → Data source settings** to point at `data/carrefour_sales.csv` (or your SQL Server instance).
