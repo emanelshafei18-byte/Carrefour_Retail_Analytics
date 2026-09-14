@@ -3,7 +3,7 @@
 An end-to-end retail analytics solution built in Power BI on three years of Carrefour Egypt sales data (2022–2024). The report turns raw transactional records into an executive-ready, six-page interactive dashboard covering sales, products, customers, store operations and returns.
 
 <p align="center">
-  <img src="Assets/01-home.png" alt="Carrefour Retail Analytics Dashboard — Home" width="850">
+  <img src="Assets/01-home.png" alt="carrefour retail analytics dashboard — Home" width="850">
 </p>
 
 ---
