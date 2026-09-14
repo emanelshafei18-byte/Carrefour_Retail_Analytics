@@ -3,7 +3,7 @@
 An end-to-end retail analytics solution built in Power BI on three years of Carrefour Egypt sales data (2022–2024). The report turns raw transactional records into an executive-ready, six-page interactive dashboard covering sales, products, customers, store operations and returns.
 
 <p align="center">
-  <img src="Assets/01-home.png" alt="carrefour retail analytics dashboard — Home" width="850">
+  <img src="Asset/01-home.png" alt="Carrefour Retail Analytics Dashboard — Home" width="850">
 </p>
 
 ---
@@ -112,41 +112,42 @@ The weighted discount calculation was rebuilt using `DIVIDE(SUM(...), SUM(...))`
 ## Dashboard Pages
 
 ### 1 · Home / Navigation
+<img src="Asset/01-home.png" alt="Home / Navigation" width="850">
+
 A branded landing page introducing the report, the data period and the purpose of each page, with buttons routing users to any section.
-<img src="Assets/01-home.png" alt="Home / Navigation" width="850">
 
 ### 2 · Executive Overview
-<img src="Assets/02-executive-overview.png" alt="Executive Overview" width="850">
+<img src="Asset/02-executive-overview.png" alt="Executive Overview" width="850">
 
 High-level health check: Total Sales, Total Orders, Total Quantity, Average Order Value, Total Customers and Return Rate, supported by a monthly sales trend, sales by brand, and a regional revenue split.
 *Filters: Year · Store Region · Month · Channel*
 
 ### 3 · Retail Sales Performance
-<img src="Assets/03-sales-performance.png" alt="Retail Sales Performance" width="850">
+<img src="Asset/03-sales-performance.png" alt="Retail Sales Performance" width="850">
 
 Revenue decomposition: gross vs. net sales, total discount and discount rate, AOV and quantity, broken down by store, order channel, payment method and time of day.
 *Filters: Store · Store Type · Order Channel · Payment Method*
 
 ### 4 · Product & Category Performance
-<img src="Assets/04-product-category.png" alt="Product & Category Performance" width="850">
+<img src="Asset/04-product-category.png" alt="Product & Category Performance" width="850">
 
 Portfolio view: top products and brands by revenue, revenue per unit, average unit price, discounted vs. non-discounted performance, and a matrix ranking brands by quantity, revenue and AOV.
 *Filters: Category · Brand · Product · Has Discount*
 
 ### 5 · Customer & Store Performance
-<img src="Assets/05-customer-store.png" alt="Customer & Store Performance" width="850">
+<img src="Asset/05-customer-store.png" alt="Customer & Store Performance" width="850">
 
 Customer demographics and value: customer count, average age, gender split, sales per customer and returning-customer rate, with revenue by city, age band, top customers and store type.
 *Filters: Gender · Age Group · Store City · Store*
 
 ### 6 · Operations, Returns & Order Analysis
-<img src="Assets/06-operations-returns.png" alt="Operations, Returns & Order Analysis" width="850">
+<img src="Asset/06-operations-returns.png" alt="Operations, Returns & Order Analysis" width="850">
 
 Fulfilment and quality: completed, cancelled and returned orders with their respective rates, returned orders by store and product, hourly sales curve, order volume by weekday, and channel performance by order status.
 *Filters: Order Status · Return Status · Order Channel · Time of Day*
 
 ### 7 · Transaction Details (Drill-through)
-<img src="Assets/07-transaction-details.png" alt="Transaction Details" width="850">
+<img src="Asset/07-transaction-details.png" alt="Transaction Details" width="850">
 
 A drill-through destination reachable from any visual, exposing the individual transactions behind a selected data point — transaction ID, customer, product, store, order and return status, date, quantity and unit price — with conditional formatting highlighting returned and cancelled records.
 
@@ -213,26 +214,20 @@ Filtered measures use `CALCULATE` with `&&` for multi-condition logic, and every
 ## Repository Structure
 
 ```
-carrefour-retail-analytics-dashboard/
+Carrefour_Retail_Analytics/
 ├── README.md
-├── data/
-│   └── carrefour_sales.csv            # Source dataset
-├── report/
-│   └── Carrefour_Retail_Analytics.pbix # Power BI report file
-├── sql/
-│   └── exploratory_queries.sql        # SSMS queries used for profiling
-├── assets/
-│   ├── 01-home.png
-│   ├── 02-executive-overview.png
-│   ├── 03-sales-performance.png
-│   ├── 04-product-category.png
-│   ├── 05-customer-store.png
-│   ├── 06-operations-returns.png
-│   ├── 07-transaction-details.png
-│   ├── icons/                         # 22 custom KPI icons (SVG + PNG)
-│   └── backgrounds/                   # Branded page backgrounds
-└── docs/
-    └── Carrefour_Dashboard_Preview.pdf
+├── LICENSE
+├── .gitattributes
+├── carrefour-retail-analytics-dashboard.pbix   # Power BI report file
+├── carrrefour dataset.xlsx                     # Source dataset
+└── Asset/
+    ├── 01-home.png
+    ├── 02-executive-overview.png
+    ├── 03-sales-performance.png
+    ├── 04-product-category.png
+    ├── 05-customer-store.png
+    ├── 06-operations-returns.png
+    └── 07-transaction-details.png
 ```
 
 ---
@@ -244,8 +239,8 @@ carrefour-retail-analytics-dashboard/
    ```bash
    git clone https://github.com/emanelshafei18-byte/Carrefour_Retail_Analytics.git
    ```
-3. Open `report/Carrefour_Retail_Analytics.pbix`.
-4. If the source path prompts, update it via **Transform data → Data source settings** to point at `data/carrefour_sales.csv` (or your SQL Server instance).
+3. Open `carrefour-retail-analytics-dashboard.pbix`.
+4. If the source path prompts, update it via **Transform data → Data source settings** to point at `carrrefour dataset.xlsx` (or your SQL Server instance).
 5. Click **Refresh**, then start from the Home page and navigate through the report.
 
 > **Tip:** right-click any visual element and choose **Drill through → Transaction Details** to inspect the records behind it.
@@ -254,7 +249,7 @@ carrefour-retail-analytics-dashboard/
 
 ## Author
 
-**Eman Elshafei**
+**Omnia**
 Data Analyst | Accounting graduate specialising in Data Analysis
 Power BI · Power Query (M) · DAX · SQL · Python · Excel · Tableau · Looker Studio
 [LinkedIn](https://www.linkedin.com/in/eman-elshafei)
