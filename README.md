@@ -3,7 +3,7 @@
 An end-to-end retail analytics solution built in Power BI on three years of Carrefour Egypt sales data (2022–2024). The report turns raw transactional records into an executive-ready, six-page interactive dashboard covering sales, products, customers, store operations and returns.
 
 <p align="center">
-  <img src="assets/01-home.png" alt="Carrefour Retail Analytics Dashboard — Home" width="850">
+  <img src="Assets/01-home.png" alt="Carrefour Retail Analytics Dashboard — Home" width="850">
 </p>
 
 ---
@@ -113,40 +113,40 @@ The weighted discount calculation was rebuilt using `DIVIDE(SUM(...), SUM(...))`
 
 ### 1 · Home / Navigation
 A branded landing page introducing the report, the data period and the purpose of each page, with buttons routing users to any section.
-<img src="assets/01-home.png" alt="Home / Navigation" width="850">
+<img src="Assets/01-home.png" alt="Home / Navigation" width="850">
 
 ### 2 · Executive Overview
-<img src="assets/02-executive-overview.png" alt="Executive Overview" width="850">
+<img src="Assets/02-executive-overview.png" alt="Executive Overview" width="850">
 
 High-level health check: Total Sales, Total Orders, Total Quantity, Average Order Value, Total Customers and Return Rate, supported by a monthly sales trend, sales by brand, and a regional revenue split.
 *Filters: Year · Store Region · Month · Channel*
 
 ### 3 · Retail Sales Performance
-<img src="assets/03-sales-performance.png" alt="Retail Sales Performance" width="850">
+<img src="Assets/03-sales-performance.png" alt="Retail Sales Performance" width="850">
 
 Revenue decomposition: gross vs. net sales, total discount and discount rate, AOV and quantity, broken down by store, order channel, payment method and time of day.
 *Filters: Store · Store Type · Order Channel · Payment Method*
 
 ### 4 · Product & Category Performance
-<img src="assets/04-product-category.png" alt="Product & Category Performance" width="850">
+<img src="Assets/04-product-category.png" alt="Product & Category Performance" width="850">
 
 Portfolio view: top products and brands by revenue, revenue per unit, average unit price, discounted vs. non-discounted performance, and a matrix ranking brands by quantity, revenue and AOV.
 *Filters: Category · Brand · Product · Has Discount*
 
 ### 5 · Customer & Store Performance
-<img src="assets/05-customer-store.png" alt="Customer & Store Performance" width="850">
+<img src="Assets/05-customer-store.png" alt="Customer & Store Performance" width="850">
 
 Customer demographics and value: customer count, average age, gender split, sales per customer and returning-customer rate, with revenue by city, age band, top customers and store type.
 *Filters: Gender · Age Group · Store City · Store*
 
 ### 6 · Operations, Returns & Order Analysis
-<img src="assets/06-operations-returns.png" alt="Operations, Returns & Order Analysis" width="850">
+<img src="Assets/06-operations-returns.png" alt="Operations, Returns & Order Analysis" width="850">
 
 Fulfilment and quality: completed, cancelled and returned orders with their respective rates, returned orders by store and product, hourly sales curve, order volume by weekday, and channel performance by order status.
 *Filters: Order Status · Return Status · Order Channel · Time of Day*
 
 ### 7 · Transaction Details (Drill-through)
-<img src="assets/07-transaction-details.png" alt="Transaction Details" width="850">
+<img src="Assets/07-transaction-details.png" alt="Transaction Details" width="850">
 
 A drill-through destination reachable from any visual, exposing the individual transactions behind a selected data point — transaction ID, customer, product, store, order and return status, date, quantity and unit price — with conditional formatting highlighting returned and cancelled records.
 
